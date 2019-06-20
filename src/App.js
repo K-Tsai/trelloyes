@@ -1,10 +1,11 @@
 import React from 'react';
-import CardClass from './Card'
+import ListClass from './List'
 
 function App() {
   return (
     <main className='App'>
-      <CardClass />
+      <ListClass/>
+      <ListClass />
     </main>
   );
 }
